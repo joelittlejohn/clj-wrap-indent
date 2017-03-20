@@ -1,4 +1,6 @@
-# clj-wrap-indent
+# clj-wrap-indent [![Build Status](https://travis-ci.org/joelittlejohn/clj-wrap-indent.png)](https://travis-ci.org/joelittlejohn/clj-wrap-indent)
+
+[![Clojars Project](https://img.shields.io/clojars/v/clj-wrap-indent.svg)](https://clojars.org/clj-wrap-indent)
 
 A Clojure library to wrap, indent and (if required) print paragraphs. Useful for neat docs in the console.
 
