@@ -1,4 +1,4 @@
-(defproject clj-wrap-indent "1.0.0"
+(defproject clj-wrap-indent "1.0.1-SNAPSHOT"
   :description "Wrap and indent a paragraph of text. Good for help docs that are a bit like man pages."
   :url "http://github.com/joelittlejohn/clj-wrap-indent"
   :license {:name "Eclipse Public License"
