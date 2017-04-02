@@ -20,7 +20,25 @@ Supports single- or multi-line text as input.
 ;; print a wrapped and indented string to stdout
 (wrap/println "Some text...")
 (wrap/println "Some text..." 80)
-(wrap/println "Some text..." 80 7)  
+(wrap/println "Some text..." 80 7)
+```
+```
+;; example println
+
+user=> (wrap/println "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.")
+       Lorem Ipsum is simply dummy text of the printing and typesetting
+       industry. Lorem Ipsum has been the industry's standard dummy text ever
+       since the 1500s, when an unknown printer took a galley of type and
+       scrambled it to make a type specimen book.
+
+user=> (wrap/println "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." 40 2)
+  Lorem Ipsum is simply dummy text of
+  the printing and typesetting industry.
+  Lorem Ipsum has been the industry's
+  standard dummy text ever since the
+  1500s, when an unknown printer took a
+  galley of type and scrambled it to
+  make a type specimen book.
 ```
 
 ## License
