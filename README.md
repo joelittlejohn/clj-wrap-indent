@@ -10,7 +10,7 @@ Supports single- or multi-line text as input.
 
 ```clj
 (ns myapp.core
-  (require [clj-wrap-indent.core :as wrap]))
+  (:require [clj-wrap-indent.core :as wrap]))
     
 ;; get a wrapped and indented string
 (wrap/wrap-indent "Some text...")
